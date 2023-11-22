@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Usuarios.Administrativos.Interfaces.Registro">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="670" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-9186817"/>
+      <foreground color="-9186817"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8434c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-16777216"/>
+          <text value="ALTA DE USUARIO"/>
+        </properties>
+      </component>
+      <component id="2056d" class="javax.swing.JTextField" binding="textDNI">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5d7ad" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="NOMBRE COMPLETO:"/>
+        </properties>
+      </component>
+      <component id="81867" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="DNI:"/>
+        </properties>
+      </component>
+      <component id="d102a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="DIRECCION:"/>
+        </properties>
+      </component>
+      <component id="cd443" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="FECHA DE NACIMIENTO:"/>
+        </properties>
+      </component>
+      <component id="afccb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="TELEFONO:"/>
+        </properties>
+      </component>
+      <component id="25534" class="javax.swing.JTextField" binding="textFECHANAC">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c9c19" class="javax.swing.JTextField" binding="textDIRECCION">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b0485" class="javax.swing.JTextField" binding="textTELEFONO">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d8113" class="javax.swing.JTextField" binding="textNOMBRE">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d601" class="javax.swing.JButton" binding="BORRARButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BORRAR"/>
+        </properties>
+      </component>
+      <component id="aaaab" class="javax.swing.JButton" binding="REGISTRARButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="REGISTRAR"/>
+        </properties>
+      </component>
+      <component id="45f09" class="javax.swing.JButton" binding="SALIRButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SALIR"/>
+        </properties>
+      </component>
+      <component id="5369" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10133388"/>
+          <foreground color="-10133388"/>
+          <text value="DD/MM/AAAA"/>
+        </properties>
+      </component>
+      <component id="12042" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="TIPO DE USUARIO:"/>
+        </properties>
+      </component>
+      <component id="16cba" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e6a0e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10133388"/>
+          <foreground color="-10133388"/>
+          <text value="Recuerde que para ingresar al programa, su usuario y contraseña será su DNI"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
